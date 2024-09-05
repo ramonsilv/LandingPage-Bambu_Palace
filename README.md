@@ -1,2 +1,2 @@
 # LandingPage-Bambu_Palace
-Projeto de desnevolvimenrto de uma Landing Page 
+Trata-se de um projeto de desnevolvimento de uma Landing Page de divulgação do Bambu Palace feito por um desafio proposto pela Sem Limites.
