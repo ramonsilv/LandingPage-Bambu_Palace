@@ -1,0 +1,72 @@
+/* Estilos da pagina index */
+
+header {
+    color: #25cbd3;
+    padding-top: 10px;
+    padding-bottom: 33px;
+}
+
+html {
+    height: 100px;
+}
+
+body {
+    background-color: #101E2F;
+    font-family: gurajada;
+    color: white;
+    margin: 0;
+}
+
+/* Estilos do Header */
+
+
+header .link-logo {
+    display: block;
+    padding: 33px 25px;
+    border-bottom: 1px solid #25cbd3;
+}
+
+header nav ul {
+    text-align: center;
+    padding: 0%;
+    
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li:not(:last-child) {
+    margin-right: 15px;
+
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #2389a8;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 777px) {
+    header {
+        position: relative;
+    }
+
+    .menu {
+        position: absolute;
+        right: 2%;
+        top: 32%;
+    }
+}
+
+main div {
+    width: 996px;
+    padding: 5px;
+    margin: auto;
+    border: 1px;color: white;
+      
+}

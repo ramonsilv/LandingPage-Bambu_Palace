@@ -10,15 +10,56 @@
     <style src="public/css/index.css"></style><!-- conexão com o arquivo css -->
     <script src="public/js/index.js"></script><!-- conexão com arquivo Javascript -->
     <link rel="icon" href="public/img/lcones/"><!-- Favicone do site -->
+    <link rel="stylesheet" href="public/css/index.css" />
     <title>Bambu Palace</title>
 </head>
 
 <body>
     <header>
 
+        <a href="index.html" class="link-logo">
+            <img src="" alt="Logo Ensinando" />
+        </a>
+
+        <nav class="menu">
+            <ul>                  
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="Nos.html">NOS</a></li>
+                <li><a href="FaleConosco.html">FALE CONOSCO</a></li>
+            </ul>
+        </nav>
+
     </header><!-- cabeçalho do site -->
 
     <main>
+        
+        <!-- Boostrap Carrosel-->
+        <div id="carouselExampleIndicators" class="carousel slide" alt="Cinque Terre" width="1000" height="300" class="container">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="public/img/beautiful-tropical-beach-sea-with-umbrella-chair-around-swimming-pool.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="public/img/luxury-classic-modern-bedroom-suite-hotel.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="public/img/tropical-hotel-holiday-background-resort.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
     </main><!-- corpo do site -->
 
