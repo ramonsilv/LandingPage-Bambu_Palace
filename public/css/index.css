@@ -1,15 +1,5 @@
 /* Estilos da pagina index */
 
-header {
-    color: #25cbd3;
-    padding-top: 10px;
-    padding-bottom: 33px;
-}
-
-html {
-    height: 100px;
-}
-
 body {
     background-color: #101E2F;
     font-family: gurajada;
@@ -18,13 +8,6 @@ body {
 }
 
 /* Estilos do Header */
-
-
-header .link-logo {
-    display: block;
-    padding: 33px 25px;
-    border-bottom: 1px solid #25cbd3;
-}
 
 header nav ul {
     text-align: center;
@@ -61,12 +44,4 @@ header nav ul li:not(:last-child) {
         right: 2%;
         top: 32%;
     }
-}
-
-main div {
-    width: 996px;
-    padding: 5px;
-    margin: auto;
-    border: 1px;color: white;
-      
 }
