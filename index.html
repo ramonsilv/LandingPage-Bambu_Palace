@@ -10,16 +10,62 @@
     <style src="public/css/index.css"></style><!-- conexão com o arquivo css -->
     <script src="public/js/index.js"></script><!-- conexão com arquivo Javascript -->
     <link rel="icon" href="public/img/lcones/"><!-- Favicone do site -->
+    <link rel="stylesheet" href="public/css/index.css" />
     <title>Bambu Palace</title>
 </head>
 
 <body>
     <header>
 
+      <!--NavBar-->
+      <nav class="navbar fixed-top bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
+        <ul class="menu">                  
+            <li><a href="Home.html">HOME</a></li>
+            <li><a href="Nos.html">NOS</a></li>
+            <li><a href="FaleConosco.html">FALE CONOSCO</a></li>
+        </ul>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="public/img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            BAMBU PALLACE
+          </a>
+        </div>
+      </nav>
+      <!--NavBar-->
+
     </header><!-- cabeçalho do site -->
 
     <main>
-
+        
+        <!-- Boostrap Carrosel-->
+        <div id="carouselExampleIndicators" class="carousel slide position-absolute top-50 start-50 translate-middle" style="width: 100%;">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="public/img/beautiful-tropical-beach-sea-with-umbrella-chair-around-swimming-pool.jpg" class="d-block w-100" alt="1 imagem">
+            </div>
+            <div class="carousel-item">
+              <img src="public/img/luxury-classic-modern-bedroom-suite-hotel.jpg" class="d-block w-100" alt="2 imagem">
+            </div>
+            <div class="carousel-item">
+              <img src="public/img/guardaSol_Piscina.jpg" class="d-block w-100" alt="3 imagem">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Boostrap Carrosel-->
+        
     </main><!-- corpo do site -->
 
     <footer>
@@ -31,4 +77,4 @@
         crossorigin="anonymous"></script><!-- linkamento bootstrap -->
 </body>
 
-</html>
+</html> 
