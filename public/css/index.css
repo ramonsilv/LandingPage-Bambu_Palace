@@ -1,4 +1,8 @@
 /* Estilos da pagina index */
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-color: #101E2F;
@@ -12,7 +16,7 @@ body {
 header nav ul {
     text-align: center;
     padding: 0%;
-    
+
 }
 
 header nav ul li {
@@ -44,4 +48,28 @@ header nav ul li:not(:last-child) {
         right: 2%;
         top: 32%;
     }
+
+}
+
+/* segunda parte */
+.sessao2 {
+    padding: 5%;
+}
+
+.sessao2-texto {
+    padding: 2%;
+    text-align: center;
+}
+
+/*ESCREVA AQUI PARA BAIXO E DEIXANDO ESSA ULTIMA PARTE DO FOOTER POR ULTIMO*/
+
+
+
+
+/* footer/Rodapé */
+div a {
+    display: inline-block;
+    text-decoration: none;
+    color: text-info bg-dark;
+    /*cor descriiminada no framework*/
 }
