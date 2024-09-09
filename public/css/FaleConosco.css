@@ -56,3 +56,14 @@ header nav ul li:not(:last-child) {
     }
 
 }
+
+main form section {
+    display: block;
+    background: #ffffff10;
+    border: 2px solid #ffffff30;
+    backdrop-filter: blur(10px);
+    width: 400px;
+    height: 452px;
+    padding: 7px;
+    font-family: gurajada;
+}

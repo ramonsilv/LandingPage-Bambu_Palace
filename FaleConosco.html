@@ -32,36 +32,58 @@
       </header><!-- cabeçalho do site -->
 
       <main><!--Corpo do site-->
-          
-          <div class="container-fluid"><!--segunda seção-->                                                                
-                    <div class="position-absolute top-50 start-50 translate-middle">
+
+         <!--Formulario-->
+          <div class="container-fluid">                                                           
+              <div class="position-absolute top-50 start-50 translate-middle">
+                <form> 
                     <section class="formulario">
-                            <div class="mb-3" >
-                                <label for="exampleFormControlInput1" class="form-label">Nome</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome">
+                        <div class="input-group has-validation">
+                            <span class="input-group-text"><img src="public/img/lcones/incons_nome.svg" width="25px" height="25px"></span>
+                            <div class="form-floating is-invalid">
+                                <input type="text" class="form-control is-invalid" id="floatingInputGroup2" placeholder="Username" required>
+                                <label for="floatingInputGroup2">Seu nome</label>
                             </div>
-                            <div class="mb-3" >
-                                <label for="exampleFormControlInput2" class="form-label">Telefone</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Seu número">
+                            <div class="invalid-feedback">
+                                Por favor digite seu nome.
                             </div>
-                            <div class="mb-3" >
-                                <label for="exampleFormControlInput3" class="form-label">Seu Email</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="nome@exemplo.com">
+                        </div>
+                        <div class="input-group has-validation">
+                            <span class="input-group-text"><img src="public/img/lcones/icone_phone.png" width="25px" height="25px"></span>
+                            <div class="form-floating is-invalid">
+                                <input type="text" class="form-control is-invalid" id="floatingInputGroup2" placeholder="Username" required>
+                                <label for="floatingInputGroup2">Telefone</label>
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Envie sua mensagem</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <div class="invalid-feedback">
+                                Por favor digite seu número de telefone.
                             </div>
-                                <a href="FaleConosco.html" class="navbar-brand" href="#">
-                                    <input class="btn btn-primary" type="button" value="ENVIAR">
-                                </a>
+                        </div>
+                        <div class="input-group has-validation">
+                            <span class="input-group-text"><img src="public/img/lcones/icone_email.png" width="25px" height="25px"></span>
+                            <div class="form-floating is-invalid">
+                                <input type="text" class="form-control is-invalid" id="floatingInputGroup2" placeholder="Username" required>
+                                <label for="floatingInputGroup2">Email</label>
+                            </div>
+                            <div class="invalid-feedback">
+                               Por favor digite seu Email.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <label for="exampleFormControlTextarea1" class="form-label">Envie sua mensagem(opcional)</label>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                        </div>
                     </section>                       
-                    </div>                              
-          </div>
-
-      </main>
-
-      <footer><!--Rodape do site-->
+                </form>
+             </div>                              
+         </div>
+         <!--Formulario-->
+            
+        </main>
+        
+      <footer><!--Rodape-->
 
       </footer>
 
