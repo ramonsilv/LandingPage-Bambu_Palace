@@ -1,4 +1,4 @@
-/* Estilos da pagina index */
+/* Estilos da pagina Fale Conosco */
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +9,12 @@ body {
     font-family: gurajada;
     color: white;
     margin: 0;
+}
+
+body {
+    background-image: url(../img/img_FaleConosco.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 /* Estilos do Header */
@@ -49,26 +55,4 @@ header nav ul li:not(:last-child) {
         top: 32%;
     }
 
-}
-
-/* segunda parte */
-.sessao2 {
-    padding: 5%;
-}
-
-.sessao2-texto {
-    padding: 2%;
-    text-align: center;
-}
-/*ESCREVA AQUI PARA BAIXO E DEIXANDO ESSA ULTIMA PARTE DO FOOTER POR ULTIMO*/
-
-
-
-
-/* footer/Rodapé */
-div a {
-    display: inline-block;
-    text-decoration: none;
-    color: text-info bg-dark;
-    /*cor descriiminada no framework*/
 }
