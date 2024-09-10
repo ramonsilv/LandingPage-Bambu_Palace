@@ -60,26 +60,7 @@ header nav ul li:not(:last-child) {
     padding: 2%;
     text-align: center;
 }
-
-.sm-12 {
-    border-top: 1px solid white;
-}
-
-/* terceira parte */
-
-.linha2 {
-    border-top: 3px solid blue;
-    width: 75%;
-}
-
-.linha3 {
-    border-bottom: 3px solid blue;
-    margin-left: 25%;
-}
-
 /*ESCREVA AQUI PARA BAIXO E DEIXANDO ESSA ULTIMA PARTE DO FOOTER POR ULTIMO*/
-
-
 
 
 /* footer/Rodapé */
@@ -88,4 +69,5 @@ div a {
     text-decoration: none;
     color: text-info bg-dark;
     /*cor descriiminada no framework*/
+
 }
