@@ -3,14 +3,14 @@ Trata-se de um projeto de desnevolvimento de uma Landing Page de divulgação do
 
 > [!IMPORTANT]
 >##DESENVOLVEDORES:
-> [X]1. Ramon Silva Freitas
-> [X]2. João Dias
+> - [X] 1. Ramon Silva Freitas
+> - [X] 2. João Dias
 
 ##Ferramentas de criação
-[X] HTML
-[X] CSS
-[X] JAVASCRIPT
-[X] BOOTSTRAP
+- [X] HTML
+- [X] CSS
+- [X] JAVASCRIPT
+- [X] BOOTSTRAP
  
 ##Framework :compass:
 > [!NOTE]
