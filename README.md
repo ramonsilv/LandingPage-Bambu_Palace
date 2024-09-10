@@ -3,8 +3,8 @@ Trata-se de um projeto de desnevolvimento de uma Landing Page de divulgação do
 
 > [!IMPORTANT]
 >##DESENVOLVEDORES:
-> - [X] 1. Ramon Silva Freitas
-> - [X] 2. João Dias
+> - [x] 1. Ramon Silva Freitas
+> - [x] 2. João Dias
 
 ##Ferramentas de criação
 - [X] HTML
