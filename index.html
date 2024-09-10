@@ -17,25 +17,25 @@
 <body>
   <header>
     <!--NavBar-->
-    <nav class="navbar fixed-top bg-body-tertiary navbar bg-dark " data-bs-theme="dark">
+    <nav class="navbar fixed-top bg-body-tertiary navbar bg-dark " data-bs-theme="dark" id="home">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#home">
           <img src="public/img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
           BAMBU PALLACE
         </a>
       </div>
       <ul class="menu">
-        <li><a href="#">HOME</a></li>
+        <li><a href="#home">HOME</a></li>
         <li><a href="#"> SOBRE NÓS</a></li>
-        <li><a href="#">FALE CONOSCO</a></li>
+        <li><a href="FaleConosco.html">FALE CONOSCO</a></li>
       </ul>
     </nav>
     <!--NavBar-->
   </header><!-- cabeçalho do site -->
 
   <main><!-- corpo do site -->
+    <!-- Boostrap Carrosel-->
     <section class="row">
-      <!-- Boostrap Carrosel-->
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -85,16 +85,28 @@
               <button type="button" class="btn btn-outline-success">Ler Mais</button>
             </div>
           </div>
+        </section><br><br><br>
+
+        <section class="row"><!--sessão de video-->
+          <div class="col-xs col-md-2 "></div>
+          <div class="col-xs col-md-10 ">
+            <video height="600" widht="600" controls>
+              <source src="public/video/video.mp4" type="video/mp4">
+            </video>
+          </div>
         </section>
-        <hr>
+
+        <section class="row"><!--sessão de cards-->
+
+        </section>
       </div>
     </div>
   </main>
 
-  <footer class="rodape bg-dark d-flex row"><!-- Rodapé do site -->
+  <footer class="rodape bg-dark d-flex row align-items-center"><!-- Rodapé do site -->
     <div class="row">
       <section class="col-xs col-md-3">
-        <div class="rodape_links ">
+        <div class="rodape_links "><br><br><br>
           <picture>
             <img src="public/img/lcones/icone_phone.png" height="24px" width="24px">
           </picture>
@@ -107,21 +119,27 @@
           <picture>
             <img src="public/img/lcones/icons_whatsapp.svg" height="24px" width="24px" alt="" srcset="">
           </picture>
-          <a href="https://whatsapp.com/channel/0029VaDEUAv7DAX5MF26Jv3V" target="_blank">(62)3720-5816</a>
+          <a href="https://whatsapp.com/channel/0029VaDEUAv7DAX5MF26Jv3V" target="_blank">(62)3720-5816</a><br><br>
+
         </div>
       </section>
-      <section class="col-xs col-md-3">
-        <div>
-          <p class="text-secondary-emphasis">Avenida Anhanguera N 5195, Setor Central, Goiânia, CEP 74043-011, Brasil
+      <section class="col-xs col-md-3"><br><br><br>
+        <strong>
+          <p class="text-success">Avenida Anhanguera N 5195 <br>Setor Central, Goiânia, <br>CEP 74043-011, Brasil
           </p>
-        </div>
+        </strong>
       </section>
-      <section class="col-xs col-md-3"></section>
       <section class="col-xs col-md-3">
-        <div class="col">
+        <br><br><br>
+        <a href="#home">HOME</a><br>
+        <a href="">SOBRE NÓS</a><br>
+        <a href="FaleConosco.html">FALE CONOSCO</a>
+      </section>
+      <section class="col-xs-12 col-md-3">
+        <div class="cold-flex p-2">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15288.117753985955!2d-49.26961225308608!3d-16.675410245523718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef161f073cc11%3A0x4149e537025f6882!2sAv.%20Anhanguera%2C%205195%20-%20St.%20Morais%2C%20Goi%C3%A2nia%20-%20GO%2C%2074043-012!5e0!3m2!1spt-BR!2sbr!4v1725907509091!5m2!1spt-BR!2sbr"
-            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            width="350" height="250" style="border: 1px;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </section>
