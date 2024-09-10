@@ -1,0 +1,69 @@
+/* Estilos da pagina Fale Conosco */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #101E2F;
+    font-family: gurajada;
+    color: white;
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/img_FaleConosco.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/* Estilos do Header */
+
+header nav ul {
+    text-align: center;
+    padding: 0%;
+
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li:not(:last-child) {
+    margin-right: 15px;
+
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #2389a8;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 777px) {
+    header {
+        position: relative;
+    }
+
+    .menu {
+        position: absolute;
+        right: 2%;
+        top: 32%;
+    }
+
+}
+
+main form section {
+    display: block;
+    background: #ffffff10;
+    border: 2px solid #ffffff30;
+    backdrop-filter: blur(10px);
+    width: 400px;
+    height: 452px;
+    padding: 7px;
+    font-family: gurajada;
+}
