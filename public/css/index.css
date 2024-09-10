@@ -60,7 +60,10 @@ header nav ul li:not(:last-child) {
     padding: 2%;
     text-align: center;
 }
+
 /*ESCREVA AQUI PARA BAIXO E DEIXANDO ESSA ULTIMA PARTE DO FOOTER POR ULTIMO*/
+
+
 
 
 /* footer/Rodapé */
@@ -69,5 +72,4 @@ div a {
     text-decoration: none;
     color: text-info bg-dark;
     /*cor descriiminada no framework*/
-
 }
