@@ -1,24 +1,25 @@
 # LandingPage-Bambu_Palace :globe_with_meridians:
 Trata-se de um projeto de desnevolvimento de uma Landing Page de divulgação do Bambu Palace feito por um desafio proposto pela Sem Limites.
 
+
 > [!IMPORTANT]
->##DESENVOLVEDORES:
+> ## DESENVOLVEDORES:
 > - [x] 1. Ramon Silva Freitas
 > - [x] 2. João Dias
 
-##Ferramentas de criação
+## Ferramentas de criação
 - [X] HTML
 - [X] CSS
 - [X] JAVASCRIPT
 - [X] BOOTSTRAP
  
-##Framework :compass:
+## Framework :compass:
 > [!NOTE]
 ><!-- escolhemos este framework com base o desafio proposto, que se trata de um framework simples e leve na utilização dos ccodigos -->
 > * Bootstrap
 >   * Este framework conta com uma biblioteca enorme desde stylização até componentização de imagens, carousel e responsividade para vários dispositivos.
 
-###Sobre a estrutura do Projeto
+### Sobre a estrutura do Projeto
 <!--Optamos para deixar de forma legivel e organizado colocar a estrutura dos codigos dessa maneira...-->
 > [!IMPORTANT]
 > - [x] :file_folder: public
